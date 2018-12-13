@@ -2,7 +2,7 @@
   * Created by randy on 12/13/18.
   */
 
-object Solution extends App {
+object JewelsAndStones extends App {
   def numJewelsInStones(j: String, s: String): Int = {
     val jewelMap = j.map(ch => (ch,1)).toMap
 
